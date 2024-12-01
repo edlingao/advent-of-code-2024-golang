@@ -18,7 +18,9 @@ func main() {
   day := args[1]
   switch day {
   case "1":
-    challenges.Day1()
+    challenges.Day1(true)
+  case "1.1": 
+    challenges.Day1(false)
   default:
     fmt.Println("Invalid day")
   }
